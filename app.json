@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "premmius-fidelidade-react-native",
+    "slug": "premmius-fidelidade-react-native",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
