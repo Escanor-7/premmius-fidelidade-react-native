@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Image } from 'react-native';
 
 import * as S from './Preload.styles';
