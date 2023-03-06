@@ -4,7 +4,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Preload } from '@screens/Preload';
 import { Welcome } from "@screens/Welcome";
 import { Login } from "@screens/Login";
-import { Register } from "@screens/Register";
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -27,6 +26,7 @@ export function AppRoutes() {
         :
         <Screen name="welcome" component={Welcome} />
       }
+      <Screen name="login" component={Login} />
     </Navigator>
   )
 } 
