@@ -15,22 +15,18 @@ export const RowBetween = styled.View`
   margin-top: 30px;
 `;
 
-export const Column = styled.View`
-  flex-direction: column;
-  flex-wrap: nowrap;
-`;
-
 export const Title = styled.Text`
   font-size: 24px;
   margin-top: 50px;
-  color: #FFF;
+  color: ${({ theme }) => theme.COLORS.WHITE};
   font-weight: 600;
 `;
 
 export const SubTitle = styled.Text`
+  text-align: center;
   font-size: 24px;
   font-weight: 500;
-  color: #FFF;
+  color: ${({ theme }) => theme.COLORS.WHITE};
 `;
 
 export const ErrorMessage = styled.Text`
@@ -45,27 +41,12 @@ export const InputArea = styled.View`
   /* padding: 40px; */
 `;
 
-export const CustomButton = styled.TouchableOpacity`
-  width: 100%;
-  height: 60px;
-  background-color: #F58634;
-  border-radius: 16px;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const CustomButtonText = styled.Text`
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-`;
-
 export const SignMessageButton = styled.TouchableOpacity`
   width: 45%;
 `;
 
 export const SignMessageButtonText = styled.Text`
-  color: #fff;
+  color: ${({ theme }) => theme.COLORS.WHITE};
 `;
 
 export const SignMessageButtonTextBold = styled.Text``;
